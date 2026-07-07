@@ -16,22 +16,22 @@
 With the [`skills`](https://getskillmd.com) CLI:
 
 ```bash
-pnpm dlx skills add crusadersecurity/skills --skill='*'
+pnpm dlx skills add crusadersecurity/Skills --skill='*'
 ```
 
 Install globally across your system:
 
 ```bash
-pnpm dlx skills add crusadersecurity/skills --skill='*' -g
+pnpm dlx skills add crusadersecurity/Skills --skill='*' -g
 ```
 
 Or install a single skill:
 
 ```bash
-pnpm dlx skills add crusadersecurity/skills --skill='crusader-mode'
+pnpm dlx skills add crusadersecurity/Skills --skill='crusader-mode'
 ```
 
-Browse it on the web after publish: **https://getskillmd.com/github/crusadersecurity/skills/crusader-mode**
+Browse it on the web after publish: **https://getskillmd.com/github/crusadersecurity/Skills/crusader-mode**
 
 ## Skills
 
