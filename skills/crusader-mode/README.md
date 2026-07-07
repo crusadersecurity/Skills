@@ -1,4 +1,4 @@
-# Crusader Skills
+# Crusader Mode
 
 An Agent Skill that teaches an AI coding agent (Claude Code and others) to hunt web/API vulnerabilities with [Crusader](https://crusaderproxy.com/) and package confirmed bugs into shareable, self-proving POCs.
 
