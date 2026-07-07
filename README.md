@@ -10,6 +10,8 @@
 - Documentation: [Crusader docs](https://crusaderproxy.com/docs/)
 - MCP guide: [Drive Crusader from Claude Code](https://crusaderproxy.com/docs/mcp-claude-code.html)
 - Extension catalog: [Crusader Extensions](https://crusaderproxy.com/extensions.html)
+- Agent index: [llms.txt](https://crusaderproxy.com/llms.txt)
+- Full agent context: [llms-full.txt](https://crusaderproxy.com/llms-full.txt)
 
 ## Install
 
