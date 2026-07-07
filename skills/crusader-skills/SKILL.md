@@ -1,10 +1,10 @@
 ---
-name: crusader-mode
+name: crusader-skills
 description: Full Crusader security-proxy integration for Claude Code. Hunt web/API vulnerabilities (IDOR/BOLA, auth, injection, SSRF/OOB, races) over Crusader's native MCP, confirm with oracles, and turn confirmed bugs into shareable self-proving crusader://poc/ links. Use when testing an app, reproducing a reported bug, or whenever the user mentions Crusader, a proxy hunt, or packaging a proof-of-concept.
 tags: [worker, security, pentest, bug-bounty, api-security, proxy, mcp]
 ---
 
-# Crusader Mode
+# Crusader Skills
 
 [Crusader](https://crusaderproxy.com/) is a local-first web security proxy with a first-class **MCP agent interface**. This skill teaches you to hunt with it the way experienced bug-bounty hunters do: work from real captured traffic, **confirm with an oracle before you claim anything**, and hand the triager a POC that proves itself.
 

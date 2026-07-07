@@ -30,22 +30,22 @@ pnpm dlx skills add crusadersecurity/Skills --skill='*' -g
 Or install a single skill:
 
 ```bash
-pnpm dlx skills add crusadersecurity/Skills --skill='crusader-mode'
+pnpm dlx skills add crusadersecurity/Skills --skill='crusader-skills'
 ```
 
-Browse it on the web after publish: **https://getskillmd.com/github/crusadersecurity/Skills/crusader-mode**
+Browse it on the web after publish: **https://getskillmd.com/github/crusadersecurity/Skills/crusader-skills**
 
 ## Skills
 
 | Skill | What it does |
 | --- | --- |
-| [**crusader-mode**](skills/crusader-mode/SKILL.md) | Drives Crusader over MCP to hunt web/API vulnerabilities (IDOR/BOLA, auth, injection, SSRF/OOB, races) and package confirmed bugs into shareable, self-proving `crusader://poc/` links. |
+| [**crusader-skills**](skills/crusader-skills/SKILL.md) | Drives Crusader over MCP to hunt web/API vulnerabilities (IDOR/BOLA, auth, injection, SSRF/OOB, races) and package confirmed bugs into shareable, self-proving `crusader://poc/` links. |
 
 ## What is an Agent Skill?
 
 A `SKILL.md` is a portable instruction file that teaches an AI coding agent (Claude Code and others) how to operate a tool: its workflow, its commands, and the expert methodology to apply. It is Markdown with a small YAML front matter (`name`, `description`); the agent loads it on demand when the `description` matches the task at hand.
 
-`crusader-mode` is deliberately thin over Crusader's built-in **`agent.guide`** MCP tool, Crusader's own self-describing contract, so it stays accurate as Crusader evolves. The skill supplies the *hunting methodology*; `agent.guide` supplies the live *mechanics*.
+`crusader-skills` is deliberately thin over Crusader's built-in **`agent.guide`** MCP tool, Crusader's own self-describing contract, so it stays accurate as Crusader evolves. The skill supplies the *hunting methodology*; `agent.guide` supplies the live *mechanics*.
 
 ## Requirements
 
