@@ -1,7 +1,6 @@
 ---
 name: crusader-mode
 description: Full Crusader security-proxy integration for Claude Code. Hunt web/API vulnerabilities (IDOR/BOLA, auth, injection, SSRF/OOB, races) over Crusader's native MCP, confirm with oracles, and turn confirmed bugs into shareable self-proving crusader://poc/ links. Use when testing an app, reproducing a reported bug, or whenever the user mentions Crusader, a proxy hunt, or packaging a proof-of-concept.
-tags: [worker, security, pentest, bug-bounty, api-security, proxy, mcp]
 ---
 
 # Crusader Mode
